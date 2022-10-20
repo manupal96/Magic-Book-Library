@@ -47,6 +47,7 @@ body {
 
 .slideshow-container {
   max-width: 800px;
+  max-height: 400px;
   position: relative;
   margin: auto;
   align-content: center;
@@ -135,7 +136,7 @@ footer a {
 }
 
 .logo img {
-  width: 211px;
+  width: 230px;
 }
 
 .btn {
@@ -209,21 +210,13 @@ footer a {
   }
 
   .logo img {
-    width: 304px;
+    width: 320px;
 
   }
 
   .topnav a {
     font-size: 18px;
     padding: 10px;
-  }
-
-  .prev,
-  .next {
-    top: 50%;
-    width: auto;
-    margin-top: 43px;
-    padding: 13;
   }
 
   .image {
@@ -254,7 +247,7 @@ footer a {
   }
 
   footer {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
