@@ -39,7 +39,7 @@ body {
 }
 
 .select_spacing {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .titulo {
@@ -139,6 +139,42 @@ footer a {
   color: black;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+padding: 14px;
+  background: #e4bc7f;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #ffffff;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .generos {
   padding: 2rem;
   display: flex;
@@ -184,8 +220,7 @@ footer a {
 
 .contactanos_h1 {
   color: #345454;
-  font-size: 35px
-  ;
+  font-size: 35px;
 }
 
 .contactanos_h2 {
@@ -209,11 +244,12 @@ footer a {
   .topnav {
     display: flex;
     flex-direction: column;
-    
+
   }
 
   .logo img {
-    width: 290px;;
+    width: 290px;
+    ;
   }
 
   .topnav a {
