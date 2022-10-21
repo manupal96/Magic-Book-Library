@@ -1,6 +1,7 @@
 .topnav {
   overflow: hidden;
   background-color: #72877c;
+  margin-bottom: 35px;
 }
 
 .topnav a {
@@ -35,6 +36,10 @@
 
 body {
   background-color: #c2d2ba;
+}
+
+.select_spacing {
+  margin-bottom: 15px;
 }
 
 .titulo {
@@ -93,23 +98,6 @@ body {
   text-align: center;
 }
 
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #d9c8aa;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #e4bc7f;
-}
-
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -144,10 +132,47 @@ footer a {
   padding: 1rem;
   display: inline-block;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   text-decoration: none;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
   color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 14px;
+  background: #e4bc7f;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #ffffff;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .generos {
@@ -193,8 +218,23 @@ footer a {
 
 
 
+.contactanos_h1 {
+  color: #345454;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.contactanos_h2 {
+  color: #345454;
+  font-size: 20px;
+}
+
+li {
+  color:#345454 ;
+}
+
 .footer__content {
-  background-color: #5b7c84;
+  background-color: #e4bc7f;
 }
 
 /* MEDIA QUERIES */
@@ -207,11 +247,12 @@ footer a {
   .topnav {
     display: flex;
     flex-direction: column;
+
   }
 
   .logo img {
-    width: 320px;
-
+    width: 290px;
+    ;
   }
 
   .topnav a {
