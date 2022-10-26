@@ -1,7 +1,6 @@
 .topnav {
   overflow: hidden;
   background-color: #72877c;
-  margin-bottom: 35px;
 }
 
 .topnav a {
@@ -13,6 +12,14 @@
   text-decoration: none;
   font-size: 30px;
   font-family: 'Helvetica Neue';
+}
+
+.searchbar {
+  align-items: center
+}
+
+.search_button {
+  height: 50px;
 }
 
 .topnav a:hover {
@@ -230,7 +237,7 @@ form.example::after {
 }
 
 li {
-  color:#345454 ;
+  color: #345454;
 }
 
 .footer__content {
