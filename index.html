@@ -13,23 +13,28 @@
 
 </head>
 
-<body class="p-3 m-0 border-0 bd-example">
-  <header>
-    <div class="topnav">
-      <div class="split logo"> <img src="img/logo.png" alt="logo"> </div>
-      <a class="active" href="index.html">Inicio</a>
-      <a href="pages/fantasia.html">Fantasía</a>
-      <a href="pages/romance.html">Romance</a>
-      <a href="pages/ficcion.html">Ciencia Ficción</a>
-      <a href="pages/ayuda.html">Ayuda</a>
-    </div>
-  </header>
-
+<body>
+    <nav class="navbar navbar-expand-lg text-info" style="background-color: #72877c;">
+      <a class="split logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarNavAltMarkup" style="">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="pages/fantasia.html">Fantasía</a>
+          <a class="nav-item nav-link" href="pages/romance.html">Romance</a>
+          <a class="nav-item nav-link" href="pages/ficcion.html">Ciencia Ficción</a>
+          <a class="nav-item nav-link" href="pages/ayuda.html">Ayuda</a>
+        </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+  </div>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <form class="example" action="action_page.php">
-    <input type="text" placeholder="Search.." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
-  </form>
   <div id="carouselExampleCaptions" class="carousel slide slideshow-container" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
