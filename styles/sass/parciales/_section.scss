@@ -1,0 +1,21 @@
+.section {
+    color: #c2f8fb;
+    background-color: #506d67;
+    padding: 1rem 2rem;
+
+    &__img {
+        width: 110%;
+    }
+
+    &__title {
+        color: #c2f8fb;
+        font-size: 2vw;
+        background: #506d67;
+        padding: 0.4rem 0.2rem;
+    }
+
+    &__info {
+        margin-top: 6rem;
+    }
+
+}

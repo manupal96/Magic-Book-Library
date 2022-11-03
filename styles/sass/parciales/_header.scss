@@ -1,0 +1,18 @@
+.header {
+  background-color: #72877c;
+  display: block;
+  overflow: hidden;
+
+  &__sections {
+    display: block;
+    color: #c2f8fb;
+    text-align: center;
+    padding: 36px 36px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Helvetica Neue';
+    margin-left: 40px;
+
+  }
+
+}
