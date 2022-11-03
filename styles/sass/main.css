@@ -39,13 +39,14 @@
   width: 110%;
 }
 .section__title {
-  color: #c2f8fb;
-  font-size: 2vw;
+  color: rgb(193, 248, 251);
+  font-size: 20px;
   background: #506d67;
   padding: 0.4rem 0.2rem;
 }
 .section__info {
-  margin-top: 6rem;
+  margin-top: 4rem;
+  text-align: justify;
 }
 
 .slideshow-container {
@@ -53,6 +54,7 @@
   max-height: 400px;
   position: relative;
   margin: auto;
+  margin-top: 50px;
   align-content: center;
 }
 
@@ -94,4 +96,11 @@
     font-family: "Helvetica Neue";
     margin: 0px;
   }
+  .image {
+    height: 180px;
+  }
+}
+.separator {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
