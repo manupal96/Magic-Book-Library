@@ -99,8 +99,14 @@
   .image {
     height: 180px;
   }
+  .separator__img {
+    width: 300px !important;
+  }
 }
 .separator {
   display: flex;
   justify-content: center;
+}
+.separator__img {
+  width: 800px;
 }/*# sourceMappingURL=main.css.map */

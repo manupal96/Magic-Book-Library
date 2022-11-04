@@ -2,15 +2,23 @@
     .logo {
         width: 290px;
     }
+
     .header__sections {
-    display: block;
-    color: #c2f8fb;
-    text-align: center;
-    padding: 36px 36px;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: "Helvetica Neue";
-    margin: 0px;
-}
-.image { height: 180px ;}
+        display: block;
+        color: #c2f8fb;
+        text-align: center;
+        padding: 36px 36px;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: "Helvetica Neue";
+        margin: 0px;
+    }
+
+    .image {
+        height: 180px;
+    }
+
+    .separator__img {
+        width: 300px !important;
+    }
 }
