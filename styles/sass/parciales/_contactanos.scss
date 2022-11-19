@@ -1,10 +1,10 @@
 .contactanos {
-    color: #345454;
+    color: $PrimaryColor;
     font-size: 35px;
     margin-bottom: 30px;
 
     &__h2 {
-        color: #345454;
+        color: $PrimaryColor;
         font-size: 20px;
     }
 }

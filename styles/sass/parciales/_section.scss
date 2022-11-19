@@ -1,6 +1,6 @@
 .section {
-    color: #c2f8fb;
-    background-color: #506d67;
+    color: $SecondaryColor;
+    background-color: $PrimaryColor;
     padding: 1rem 2rem;
 
     &__img {
@@ -8,9 +8,9 @@
     }
 
     &__title {
-        color: rgb(193, 248, 251);
+        color: $SecondaryColor;
         font-size: 20px;
-        background: #506d67;
+        background: $PrimaryColor;
         padding: 0.4rem 0.2rem;
     }
 
